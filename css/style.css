@@ -29,7 +29,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	
 	padding: 0;
 	margin: 0;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -82,27 +81,24 @@ img{
     background-color: #000;
     background: linear-gradient(180deg, #0281d4, #001758 98%);
 	width:100vw;
-	height:500px;	
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-#FPC
-{
-	position: absolute;
-}
-
 #FPC .logo
 {
-	width: 600px;
-	max-width: 50%;
-	box-shadow: 5px 5px 200px #fff
+	max-width: 450px;
+	width: 50%;
+	box-shadow: 5px 5px 100px #fff;
+	margin: 10%;
 }
 
 #menu-wrap {
-  width: 100%;
+  width: 94%;
+  padding: 0 3%;
   text-align: center;
+  display: inline-block;
 }
 
 #menu-wrap a {
@@ -136,7 +132,7 @@ img{
 #info {
 	width:100%;
 	margin:40px auto 40px auto;
-	max-width: 800px;
+	max-width: 1000px;
 	
 }
 #info img{
